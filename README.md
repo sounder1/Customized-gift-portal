@@ -30,6 +30,7 @@ Implement a 3D image slider
 Upon clicking images, render theme pages based on selected products
 Display delivery items, ratings, categories, and themes for the selected product
 If an image is ordered, redirect to the order page and display payment success
+
 Day 4:
 
 Create an Admin page
