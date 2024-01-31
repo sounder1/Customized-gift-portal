@@ -1,0 +1,61 @@
+.payment-container {
+    width:40%;
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 400px; /* Limit the height and enable scrolling */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center vertically and horizontally */
+}
+
+
+.payment-container h1 {
+    text-align: center;
+}
+
+.payment-container form {
+    margin-top: 20px;
+}
+
+.payment-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.payment-container input[type="text"],
+.payment-container input[type="email"],
+.payment-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.payment-container button[type="button"] {
+    padding: 10px 20px;
+    background-color: #ff6347; /* Red color for cancel button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-right: 10px; */
+}
+
+/* Style for the submit payment button */
+.payment-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #32cd32; /* Green color for submit payment button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.payment-container button:hover {
+    opacity: 0.8;
+}
