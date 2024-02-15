@@ -1,0 +1,106 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0 0px;
+    align-items: center;
+    padding-bottom: 75px;
+  } 
+  
+  .contact__container {
+    width: 600px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  .contact__container > p {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+  }
+  .root1{
+    background-color:tan;
+  }
+  .contact__container > p > span {
+    color: #f64c08;
+  }
+  
+  .contact__icons > a > button > span > .MuiSvgIcon-root {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .contact__icons > a > .MuiIconButton-root {
+    color: white !important;
+  }
+  /* *{
+    margin: 0%;
+    top: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  } */
+ 
+  .sounder{
+    height: 1200px;
+    margin-left: 200px;
+
+  }
+  .sounder img{
+    width: 80%;
+    height: 100%;
+   margin-top: -55.9%;
+   margin-left:-23.9rem;
+}
+  .circle{
+    margin-left: 200px;
+  }
+  .circle img{
+        width: 28%;
+        margin-top: 5%;
+  }
+.comp h1{
+    color: aliceblue;
+    margin-top: -90rem;
+    margin-left: 50rem;
+  
+}
+.comp h1::first-letter{
+    text-transform: capitalize;
+    color:red;
+}
+.comp1 h1{
+    color: aliceblue;
+    margin-top: 20rem;
+    font-size:27px;
+    max-width: 50%;
+    margin-left: 30rem;
+    text-align: justify;
+}
+.comp2 h1{
+    color: aliceblue;
+    margin-top: 6rem;
+    font-size:27px;
+    max-width: 50%;
+    margin-left: 30rem;
+    text-align: justify;
+}
+.cname img{
+width:50%;
+margin-top:8rem;
+}
+span{
+    color: #76066f;
+}
+.click1 a{
+  color:palevioletred;
+  font-size: 23px;
+ text-decoration: none;
+  margin-left: 47%;
+  border-radius: 10px;
+
+}

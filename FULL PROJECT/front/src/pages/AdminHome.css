@@ -1,0 +1,16 @@
+.admin-home__parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .admin-home__toolbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Add any additional CSS styles you need */
+  

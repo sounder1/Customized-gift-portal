@@ -1,0 +1,38 @@
+.admin-order-page {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: tan;
+}
+
+.order {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order div {
+    margin-bottom: 5px; /* Adds space between each detail */
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.value {
+    font-style: italic;
+    color: #555; /* Adjust color as needed */
+    font-weight: bold;
+}
